@@ -3,7 +3,7 @@
 
     .intro-doctor {
         display: flex;
-    margin: 0 100px;
+        margin: 0 100px;
 
 
         .content-left {
@@ -33,7 +33,22 @@
         }
     }
 
-    .detail-infor-doctor{
+    .schedule-doctor {
+        margin: 0 100px;
+        display: flex;
+        height: 200px;
+        border: 1px solid;
+
+        .content-left {
+            width: 50%;
+        }
+
+        .content-right {
+            width: 50%;
+        }
+    }
+
+    .detail-infor-doctor {
         border-top: 1px solid #ddd;
         border-bottom: 1px solid #ddd;
         padding-top: 20px;
@@ -42,14 +57,17 @@
         background-color: #f9f9f9;
         padding: 10px 100px;
 
-        h3,h2{
+        h3,
+        h2 {
             font-size: 20px;
         }
-        img{
+
+        img {
             width: 100%;
         }
     }
-    .comment-doctor{
+
+    .comment-doctor {
         height: 50px;
     }
 }
