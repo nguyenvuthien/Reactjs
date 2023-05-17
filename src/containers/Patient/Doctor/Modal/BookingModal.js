@@ -142,7 +142,7 @@ class BookingModal extends Component {
             toast.success('Booking a new appointment succeed!');
             this.props.closeBookingClose();
         } else {
-            toast.error('Booking a new appointment error!')
+            toast.error('Bạn phải điền email!')
         }
 
         console.log('res aaa', res)
